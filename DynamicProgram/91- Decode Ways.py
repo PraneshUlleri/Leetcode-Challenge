@@ -13,3 +13,4 @@ class Solution:
                 dp[i]+=dp[i-2]
         print(dp)  
         return dp[n]
+        
